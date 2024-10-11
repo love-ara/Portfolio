@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2'),
+  url('./assets/fonts/LaBelleAurore.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body {
+  @apply font-belle
+}
+
+span{
+  display: inline-block;
+}
+
+
+
